@@ -1,0 +1,65 @@
+{
+  "pages": {
+    "/(MainLayout)/dashboard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(MainLayout)/dashboard/page.js"
+    ],
+    "/(MainLayout)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(MainLayout)/layout.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
+    ],
+    "/(AuthLayout)/auth/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(AuthLayout)/auth/login/page.js"
+    ],
+    "/(AuthLayout)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(AuthLayout)/layout.js"
+    ],
+    "/(MainLayout)/order/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(MainLayout)/order/page.js"
+    ],
+    "/(MainLayout)/product/create/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(MainLayout)/product/create/page.js"
+    ],
+    "/(MainLayout)/publication/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(MainLayout)/publication/page.js"
+    ],
+    "/(MainLayout)/qna/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(MainLayout)/qna/page.js"
+    ],
+    "/(MainLayout)/reports/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(MainLayout)/reports/page.js"
+    ],
+    "/(MainLayout)/page/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(MainLayout)/page/page.js"
+    ]
+  }
+}

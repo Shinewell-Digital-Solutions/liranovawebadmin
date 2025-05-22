@@ -39,7 +39,8 @@ const Sidebar = () => {
   const modifiedSidebar = getPermissionArray(MENUITEMS);
 
   return (
-    <div className={`sidebar-wrapper ${sidebarOpen ? "close_icon" : ""}`}>
+    // admin dashboard menu sidebar 
+    <div className={`sidebar-wrapper new-sidebar ${sidebarOpen ? "close_icon" : ""}`}>
       <div id="sidebarEffect" />
       <div className={`${mounted ? "skeleton-loader" : ""}`}>
         <LogoWrapper setSidebarOpen={setSidebarOpen} />
@@ -51,6 +52,14 @@ const Sidebar = () => {
           </div>
         </nav>
       </div>
+
+
+      {/* liranova css sidebar */}
+      <style>{`
+      .new-sidebar {
+        background:#174b97 !important;
+      }
+      `}</style>
     </div>
   );
 };

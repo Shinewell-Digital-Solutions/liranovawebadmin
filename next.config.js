@@ -3,9 +3,9 @@ const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
   env: {
-    // For Local Server
-    URL: "https://api.your.domain.com/api/admin",
-    storageURL: "https://api.your.domain.com",
+    // Updated API endpoints
+    URL: "https://liranovawebapi.shinewell.in/api/admin",
+    storageURL: "https://liranovawebapi.shinewell.in",
   },
   redirects: async () => {
     return [
@@ -20,7 +20,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "api.your.domain.com",
+        hostname: "liranovawebapi.shinewell.in",
       },
       {
         protocol: "http",
@@ -28,16 +28,16 @@ const nextConfig = {
       },
       {
         protocol: "http",
-        hostname: "localhost",
+        hostname: "liranovawebapi.shinewell.in",
       },
-      {
-        protocol: "http",
-        hostname: "laravel.pixelstrap.net/fastkart",
-      },
-      {
-        protocol: "https",
-        hostname: "laravel.pixelstrap.net/fastkart",
-      },
+      // {
+      //   protocol: "http",
+      //   hostname: "laravel.pixelstrap.net/fastkart",
+      // },
+      // {
+      //   protocol: "https",
+      //   hostname: "laravel.pixelstrap.net/fastkart",
+      // },
     ],
   },
   devIndicators: {

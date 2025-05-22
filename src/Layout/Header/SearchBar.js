@@ -50,9 +50,10 @@ const SearchBar = ({ openSearchBar, setOpenSearchBar }) => {
     }
   };
   return (
-    <Form className={`form-inline search-full ${openSearchBar ? "open" : ""}`}>
+    // dashboard search bar
+    <Form className={`form-inline search-full new-searchbar ${openSearchBar ? "open" : ""}`}>
       <div className="w-100 position-relative">
-        <div className="search-icon d-md-flex d-none">
+        <div className="search-icon d-md-flex d-none new-searchinput">
           <RiSearchLine />
         </div>
         <div className="Typeahead Typeahead--twitterUsers">
@@ -79,6 +80,12 @@ const SearchBar = ({ openSearchBar, setOpenSearchBar }) => {
           <ul><AllMenus menu={searchArr} /></ul>
         )}
       </div>
+
+      <style>{`
+      .new-searchinput{
+        background: #118f79 !important;
+      }
+      `}</style>
     </Form>
   );
 };

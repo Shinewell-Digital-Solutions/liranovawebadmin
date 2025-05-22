@@ -9,8 +9,8 @@ import SettingContext from "../../Helper/SettingContext";
 import { useTranslation } from "react-i18next";
 
 const MenuList = ({ menu, level, setActiveMenu, activeMenu }) => {
-  
-  const { t } = useTranslation( 'common');
+
+  const { t } = useTranslation('common');
   const [newMenu, setNewMenu] = useState(menu);
   const { searchSidebarMenu, setSearchSidebarMenu } = useContext(SettingContext);
   const { state } = useContext(BadgeContext);
@@ -67,8 +67,9 @@ const MenuList = ({ menu, level, setActiveMenu, activeMenu }) => {
 
   return (
     <>
+      {/* sidebar menu list item */}
       {newMenu?.map((mainMenu, i) => (
-        <li className="sidebar-list" key={i}>
+        <li className="sidebar-list new-list-item" key={i}>
           <>
             {mainMenu.path ? (
               <Link href={mainMenu.path} className={`sidebar-link sidebar-title link-nav ${parentMenu === mainMenu.title ? "active" : ""}`}>
@@ -97,6 +98,25 @@ const MenuList = ({ menu, level, setActiveMenu, activeMenu }) => {
           </>
         </li>
       ))}
+
+      {/* liranova css menu list */}
+      <style>{`
+      .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links > li .sidebar-link:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#118f79 !important;
+    opacity: 0;
+    z-index: -1;
+    }
+    .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links > li .sidebar-link:hover{
+      background-color:#118f79 !important;
+      }
+      
+      `}</style>
     </>
   );
 };
