@@ -16,30 +16,25 @@ const nextConfig = {
       },
     ];
   },
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "liranovawebapi.shinewell.in",
-      },
-      {
-        protocol: "http",
-        hostname: "127.0.0.1",
-      },
-      {
-        protocol: "http",
-        hostname: "liranovawebapi.shinewell.in",
-      },
-      // {
-      //   protocol: "http",
-      //   hostname: "laravel.pixelstrap.net/fastkart",
-      // },
-      // {
-      //   protocol: "https",
-      //   hostname: "laravel.pixelstrap.net/fastkart",
-      // },
-    ],
-  },
+images: {
+  remotePatterns: [
+    {
+      protocol: "https",
+      hostname: "liranovawebapi.shinewell.in",
+      pathname: "**",
+    },
+    {
+      protocol: "http",
+      hostname: "127.0.0.1",
+      pathname: "/**",
+    },
+    {
+      protocol: "http",
+      hostname: "liranovawebapi.shinewell.in",
+      pathname: "**",
+    },
+  ],
+},
   devIndicators: {
     buildActivity: false,
   },

@@ -1,8 +1,9 @@
 {
-  "/(MainLayout)/product/create/page": "app/(MainLayout)/product/create/page.js",
-  "/(MainLayout)/order/page": "app/(MainLayout)/order/page.js",
-  "/(MainLayout)/publication/page": "app/(MainLayout)/publication/page.js",
-  "/(MainLayout)/reports/page": "app/(MainLayout)/reports/page.js",
-  "/(MainLayout)/qna/page": "app/(MainLayout)/qna/page.js",
-  "/(MainLayout)/page/page": "app/(MainLayout)/page/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(MainLayout)/dashboard/page": "app/(MainLayout)/dashboard/page.js",
+  "/(MainLayout)/user/edit/[updateId]/page": "app/(MainLayout)/user/edit/[updateId]/page.js",
+  "/(MainLayout)/user/create/page": "app/(MainLayout)/user/create/page.js",
+  "/(MainLayout)/user/page": "app/(MainLayout)/user/page.js",
+  "/(AuthLayout)/auth/login/page": "app/(AuthLayout)/auth/login/page.js"
 }

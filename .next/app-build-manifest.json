@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/(MainLayout)/dashboard/page": [
+    "/(MainLayout)/user/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(MainLayout)/dashboard/page.js"
+      "static/chunks/app/(MainLayout)/user/page.js"
     ],
     "/(MainLayout)/layout": [
       "static/chunks/webpack.js",
@@ -21,6 +21,26 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
+    "/(MainLayout)/user/edit/[updateId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(MainLayout)/user/edit/[updateId]/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
+    ],
+    "/(MainLayout)/attribute/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(MainLayout)/attribute/page.js"
+    ],
+    "/(MainLayout)/attribute/[lang]/edit/[updateId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(MainLayout)/attribute/[lang]/edit/[updateId]/page.js"
+    ],
     "/(AuthLayout)/auth/login/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -31,35 +51,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(AuthLayout)/layout.js"
     ],
-    "/(MainLayout)/order/page": [
+    "/(MainLayout)/dashboard/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(MainLayout)/order/page.js"
+      "static/chunks/app/(MainLayout)/dashboard/page.js"
     ],
-    "/(MainLayout)/product/create/page": [
+    "/(MainLayout)/user/create/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(MainLayout)/product/create/page.js"
-    ],
-    "/(MainLayout)/publication/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(MainLayout)/publication/page.js"
-    ],
-    "/(MainLayout)/qna/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(MainLayout)/qna/page.js"
-    ],
-    "/(MainLayout)/reports/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(MainLayout)/reports/page.js"
-    ],
-    "/(MainLayout)/page/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(MainLayout)/page/page.js"
+      "static/chunks/app/(MainLayout)/user/create/page.js"
     ]
   }
 }

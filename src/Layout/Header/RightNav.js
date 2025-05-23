@@ -53,14 +53,14 @@ const RightNav = ({ setMode, mode, setOpenSearchBar }) => {
 
   return (
     <Col className="nav-right pull-right right-header p-0">
-      <div className="header-btns d-none d-lg-flex">
+      {/* <div className="header-btns d-none d-lg-flex">
         <QuickLinks />
         {isOrderCreate && (
           <Link href={"/order/create"} className="btn btn-animation">
             {t("pos")}
           </Link>
         )}
-      </div>
+      </div> */}
       <ul className="nav-menus">
         <li>
           <span

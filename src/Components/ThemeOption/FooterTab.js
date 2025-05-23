@@ -47,8 +47,8 @@ const FooterTab = ({ values, setFieldValue, errors, categoryData }) => {
             nameList={[
               { name: '[options][footer][support_number]', title: 'support_number', placeholder: t('enter_support_number') },
               { name: '[options][footer][support_email]', title: 'support_email', placeholder: t('enter_support_email') },
-              { name: '[options][footer][play_store_url]', title: 'play_store_url', placeholder: t('enter_play_store_url') },
-              { name: '[options][footer][app_store_url]', title: 'app_store_url', placeholder: t('enter_app_store_url') },
+              // { name: '[options][footer][play_store_url]', title: 'play_store_url', placeholder: t('enter_play_store_url') },
+              // { name: '[options][footer][app_store_url]', title: 'app_store_url', placeholder: t('enter_app_store_url') },
             ]}
           />
           <CheckBoxField name='[options][footer][social_media_enable]' title='social_media_enable' />

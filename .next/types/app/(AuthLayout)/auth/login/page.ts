@@ -1,4 +1,4 @@
-// File: C:\Users\lenovo\Documents\liranova-admin-panel-main\liranova-admin-panel-main\src\app\(AuthLayout)\auth\login\page.js
+// File: /Users/deepeshraj/Documents/GitHub/liranovawebadmin/src/app/(AuthLayout)/auth/login/page.js
 import * as entry from '../../../../../../src/app/(AuthLayout)/auth/login/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
